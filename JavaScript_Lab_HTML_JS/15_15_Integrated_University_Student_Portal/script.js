@@ -1,0 +1,1 @@
+const portal={Profile:'Name: Student\nCourse: MCA\nRoll No: 101',Results:'Semester 1: Awaiting result',Fees:'Fees status: Paid',Notifications:'No new notifications'};function section(s){out.innerHTML='<h3>'+s+'</h3><pre>'+portal[s]+'</pre>';}section('Profile');

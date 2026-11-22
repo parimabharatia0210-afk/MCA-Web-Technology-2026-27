@@ -1,0 +1,1 @@
+JavaScript Lab Answers: 15 assignments. Each folder contains index.html and script.js. Open index.html in a browser. Some assignments are simplified demonstrations; real-time chat requires a server/WebSocket backend and API Explorer needs internet access.

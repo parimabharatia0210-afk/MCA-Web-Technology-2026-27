@@ -1,0 +1,1 @@
+function show(){let r=role.value,menus={Admin:['Manage users','View reports','Settings'],Faculty:['Manage classes','Upload marks','Attendance'],Student:['View results','View attendance','Submit forms']};out.innerHTML=`<h3>${r} Dashboard</h3><ul>${menus[r].map(x=>'<li>'+x+'</li>').join('')}</ul>`;}show();

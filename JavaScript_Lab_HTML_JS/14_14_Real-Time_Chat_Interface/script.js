@@ -1,0 +1,1 @@
+let messages=[];function send(){if(!msg.value.trim())return;messages.push({user:user.value,text:msg.value,time:new Date().toLocaleTimeString()});msg.value='';draw()}function draw(){out.innerHTML=messages.map(m=>`<p><b>${m.user}</b> (${m.time}): ${m.text}</p>`).join('');}msg.addEventListener('input',()=>{typing.textContent=msg.value?'Typing...':'';});draw();
