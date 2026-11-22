@@ -1,0 +1,13 @@
+{
+  "name": "weatherwise",
+  "version": "1.0.0",
+  "description": "A full-stack weather forecast web application using Node.js, Express and the Open-Meteo API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

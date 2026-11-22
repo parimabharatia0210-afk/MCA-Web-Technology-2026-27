@@ -1,0 +1,49 @@
+# Dependencies and package-manager output
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local environment and secrets (keep the documented template)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+*.token
+*.secret
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+.npmrc
+.netrc
+*credentials*.json
+*service-account*.json
+secrets/
+
+# Logs, runtime data, temporary files
+logs/
+*.log
+*.pid
+*.seed
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Editor, operating-system, and local tooling files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.history/
+.cache/
+coverage/
+dist/
+build/
